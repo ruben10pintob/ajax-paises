@@ -1,0 +1,19 @@
+$color-black: #000;
+$width-input: 50%;
+
+@mixin input {
+    width: $width-input;
+    border: 0.1em solid $color-black;
+    border-radius: 1em;
+}
+
+
+#button-send {
+    &:hover {
+        background-color: $color-black
+    }
+}
+
+#input {
+    @include input();
+}
