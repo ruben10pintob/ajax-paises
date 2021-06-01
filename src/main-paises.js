@@ -49,6 +49,7 @@ export class mainPaises extends LitElement {
             composed: true,
             detail: {data: paises}
         }))
+        console.log(paises);
     }
 
     // PROMISE NORMAL
